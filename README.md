@@ -19,4 +19,6 @@ This repository provides a comprehensive Python-based pipeline for **covariate b
 1. Simulate Data (Default)
 The script simulates a dataset of patients with covariates, treatment assignment, and outcome.
 
-Run it directly: python 
+Run it directly: python Covariate Balancer v2.p
+
+
