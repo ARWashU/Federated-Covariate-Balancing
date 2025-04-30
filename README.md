@@ -24,7 +24,7 @@ Run it directly: python Covariate Balancer v2.py
 2. To Use Simulated Data:
 X,D,Y = read_in_raw_data("file_name")
 
-📘 What the Script Does
+## 📘 What the Script Does
 Data Preparation
 simulate_data(): Simulates synthetic covariates, treatment, and outcome data.
 
@@ -44,21 +44,23 @@ Exports summary tables to Excel
 
 Plots weights, covariate balance, and treatment effects to PowerPoint
 
-📊 Visual Outputs
+## 📊 Visual Outputs
 
-Plot	Description
-Weights Distribution	Visualizes individual patient weights
+## Plot Description
+Weights Distribution Visualizes individual patient weights
 Mean Differences (Before/After)	Shows covariate balance improvements
 Standardized Mean Differences	Key diagnostic for covariate balance
 ATE/ATT/ATC Bar Chart	Summarizes estimated treatment effects
-🧪 Treatment Effects Explained
+
+
+## 🧪 Treatment Effects Explained
 ATE (Average Treatment Effect): Average effect if all were treated vs. none
 
 ATT (on the Treated): Effect on treated group vs. if they were not treated
 
 ATC (on the Controls): Effect on control group if they had been treated
 
-🔧 Customization
+## 🔧 Customization
 
 🔢 Number of Covariates/Patients: Adjustable in simulate_data()
 
@@ -66,7 +68,7 @@ ATC (on the Controls): Effect on control group if they had been treated
 
 📄 Reporting Format: Exports results to .xlsx and .pptx, easy to customize
 
-✅ Output Examples
+## ✅ Output Examples
 After a successful run, you'll get:
 
 Output_Consolidated.xlsx:
